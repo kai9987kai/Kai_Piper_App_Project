@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Email: kaipiper@kai9987kai.pw", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
 
+
         }
     }
 }

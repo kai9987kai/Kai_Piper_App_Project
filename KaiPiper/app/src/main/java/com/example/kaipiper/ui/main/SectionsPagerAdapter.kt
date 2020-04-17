@@ -4,10 +4,7 @@ import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.kaipiper.Frag1
-import com.example.kaipiper.Frag2
-import com.example.kaipiper.Frag3
-import com.example.kaipiper.R
+import com.example.kaipiper.*
 
 private val TAB_TITLES = arrayOf(
         R.string.tab_text_1,
@@ -28,7 +25,8 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
         return when (position) {
             0 -> Frag1()
             1 -> Frag2()
-            2 -> Frag3()
+            2 -> Frag4()
+            3 -> Frag3()
 
             else -> PlaceholderFragment.newInstance(position + 1)
         }
@@ -41,7 +39,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
 
     override fun getCount(): Int {
         // Show 2 total pages.
-        return 3
+        return 4
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
@@ -49,7 +47,8 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
             return when (position) {
                 0 -> "Home"
                 1 -> "Website"
-                2 ->  "About"
+                2 ->  "News"
+                3 -> "About"
                 else -> {
                     return "Error"
                 }

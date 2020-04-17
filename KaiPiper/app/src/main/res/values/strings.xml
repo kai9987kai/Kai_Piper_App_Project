@@ -3,7 +3,15 @@
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Website</string>
     <string name="tab_text_3">About</string>
+    <string name="tab_text_4">News</string>
     <string name="section_label">Welcome to my app!!</string>
+    <!-- Content Description -->
+    <string name="news_image_desc">News Image</string>
+    <string name="news_image">news image</string>
+    <string name="str_test_date">22/02/2017</string>
+
+    <!-- Empty -->
+    <string name="no_news">No News</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
